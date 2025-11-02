@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malak Bakhtiar Property & Consultancy Office</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-900 text-white px-4 py-3">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ملک بختيار رهنمايي او معاملاتو دفتر</h1>
+            <button id="menu-btn" class="md:hidden block focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <ul id="menu" class="hidden md:flex space-x-6 font-medium">
+                <li><a href="#" class="hover:text-yellow-300">کور</a></li>
+                <li><a href="#services" class="hover:text-yellow-300">خدمتونه</a></li>
+                <li><a href="#about" class="hover:text-yellow-300">خدمتونه</a></li>
+                <li><a href="#contact" class="hover:text-yellow-300">اړیکې</a></li>
+            </ul>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden">
+            <ul class="flex flex-col bg-blue-800 space-y-2 p-3">
+                <li><a href="#" class="hover:text-yellow-300">کور</a></li>
+                <li><a href="#services" class="hover:text-yellow-300">خدمتونه</a></li>
+                <li><a href="#about" class="hover:text-yellow-300">په اړه</a></li>
+                <li><a href="#contact" class="hover:text-yellow-300">اړیکې</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gray-100 py-12">
+        <div class="container mx-auto flex flex-col md:flex-row items-center px-4">
+            <div class="md:w-1/2 space-y-4">
+                <h2 class="text-4xl font-bold text-blue-900">ستاسو د ملکیت او سوداګرۍ په مشوره کې باوري ملګری</h2>
+                <p class="text-gray-600">
+                    د ملک بختیار د ملکیت او مشورتي دفتر د ملکیتونو د پلور، پیرود، منځګړیتوب، د سوداګرۍ د پیل لارښوونې،
+                    او د بازار موندنې مشورې کې اشخاصو او سوداګرو سره مرسته کوي. موږ د باور جوړولو او د افغانستان د
+                    قوانینو سره سم شفاف حلونه چمتو کولو ته ژمن یو.
+                </p>
+                <a href="#services" class="inline-block bg-blue-900 text-white px-6 py-2 rounded-lg hover:bg-blue-800">
+                    زموږ خدمات وپلټئ
+                </a>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+                    alt="Property Consultancy" class="rounded-2xl shadow-lg w-full" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-900 mb-10">زموږ خدمات</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80"
+                        alt="Property Selling" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د ملکیت د خرڅلاو مرسته</h3>
+                        <p class="text-gray-600">موږ ستاسو سره مرسته کوو چې ستاسو ملکیت په چټکه او خوندي توګه په مناسب
+                            قیمت وپلورئ.</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://plus.unsplash.com/premium_photo-1661443273363-62cf1a4c2321?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1460
+                        alt="Property Purchase" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د ملکیت د پیرودلو لارښود</h3>
+                        <p class="text-gray-600">په خپله سیمه کې د خوندي او قانوني ملکیتونو په پیرودلو کې د متخصصینو
+                            مرسته ترلاسه کړئ.</p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://plus.unsplash.com/premium_photo-1661400605606-c3497c4d63df?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332
+                        alt="Mediation" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">قانوني منځګړیتوب</h3>
+                        <p class="text-gray-600">موږ د ګوندونو ترمنځ منځګړیتوب کوو ترڅو شخړې په عادلانه او سوله ایزه
+                            توګه حل کړو</p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1551135049-8a33b5883817?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170
+                        alt="Business Consultancy" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د سوداګرۍ مشوره</h3>
+                        <p class="text-gray-600">په افغانستان کې د بریالي سوداګرۍ پیل او پراختیا لپاره ستاسو لارښوونه.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=80"
+                        alt="Marketing Advice" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">بازار موندنه او برانډینګ</h3>
+                        <p class="text-gray-600">د کوچنیو کاروبارونو سره د پیرودونکو په راجلبولو او په اغیزمنه توګه وده
+                            کولو کې مرسته کول.</p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1758695537300-cc5f7c85a578?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170
+                        alt="Investment Advice" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د پانګونې مشوره</h3>
+                        <p class="text-gray-600">د ګټورې پانګونې لپاره د متخصص مالي لارښوونې ترلاسه کړئ.</p>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80"
+                        alt="Office Setup" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د دفتر تنظیم لارښود</h3>
+                        <p class="text-gray-600">موږ سوداګرو سره د دفترونو او دوکانونو پلان جوړولو او جوړولو کې مرسته
+                            کوو</p>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1633158108216-f10cd3202d8a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170
+                        alt="Legal Support" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">قانوني اسناد</h3>
+                        <p class="text-gray-600">د قانوني کاغذونو، قراردادونو، او اداري پروسیجرونو سره ملاتړ.</p>
+                    </div>
+                </div>
+
+                <!-- 9 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://plus.unsplash.com/premium_photo-1661423725885-96337206f005?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1932"
+                        alt="Real Estate Management" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د املاکو مدیریت</h3>
+                        <p class="text-gray-600">موږ ستاسو د ملکیت پورټ فولیو په مسلکي او خوندي ډول اداره کوو.</p>
+                    </div>
+                </div>
+
+                <!-- 10 -->
+                <div class="bg-gray-100 rounded-2xl overflow-hidden shadow">
+                    <img src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?auto=format&fit=crop&w=800&q=80"
+                        alt="Community Support" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold">د ټولنې ملاتړ</h3>
+                        <p class="text-gray-600">موږ د وړیا پوهاوي او مشورې له لارې د سیمه ییزو ټولنو سره مرسته کوو.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-10 mt-12">
+        <div class="container mx-auto grid md:grid-cols-3 gap-8 px-4">
+
+            <div>
+                <h3 class="text-xl font-semibold mb-3">چټک لینکونه</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-yellow-300">کور</a></li>
+                    <li><a href="#about" class="hover:text-yellow-300">زموږ په اړه</a></li>
+                    <li><a href="#services" class="hover:text-yellow-300">زموږ خدمات</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300">اړیکه</a></li>
+                </ul>
+            </div>
+
+            <div id="contact">
+                <h3 class="text-xl font-semibold mb-3">اړیکه</h3>
+                <p><a href="mailto: saqibservices26@gmail.com">saqibservices26@gmail.com</a></p>
+                <p>Phone: <a href="tel">+93 79 818 8726</a></p>
+                <p> <a
+                        href="https://www.google.com/maps/place/%D8%AB%D8%A7%D9%82%D8%A8+%D8%AF%D9%8A+%D8%A7%D9%86%D8%AC%D9%86%D9%8A%D8%B1%D9%8A+%D8%AE%D8%AF%D9%85%D8%AA%D9%88%D9%86%D9%88+%D8%AF%D9%81%D8%AA%D8%B1%E2%80%AD/@32.9418806,68.6396728,115m/data=!3m1!1e3!4m6!3m5!1s0x38d5e90018a72bf1:0xb4035c442373a1dd!8m2!3d32.942047!4d68.6394235!16s%2Fg%2F11xyhqpv67?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D">Address:
+                        د يحيي خيل خیلو بازار، پکتیکا، افغانستان</a>->ꚰ</p>
+            </div>
+
+            <div id="about">
+                <h3 class="text-xl font-semibold mb-3">زموږ په اړه</h3>
+                <p>
+                    د ملک بختیار د ملکیت او مشورتي دفتر اشخاصو او سازمانونو ته حقوقي، سوداګریز او املاکو ملاتړ چمتو کوي.
+                    موږ موخه لرو چې خلک د افغانستان د قانون سره سم په هوښیارۍ سره وده او پانګونه وکړي.
+                </p>
+            </div>
+        </div>
+
+        <div class="text-center text-gray-300 mt-10 border-t border-gray-600 pt-4">
+            © 2025 Malak Bakhtiar Property & Consultancy Office. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
